@@ -1,37 +1,187 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bulldogs Saturday Soccer League</title>
+        <title>Bulldog Saturday Soccer League</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
+        <a class="skip-link" href="#main-content">Skip to main content</a>
         <header class="site-header">
             <div class="container nav-wrapper">
-                <div class="brand" aria-label="Bulldogs Saturday Soccer League home">
+                <a class="brand" href="#home" aria-label="Bulldog Saturday Soccer League home">
                     <span class="brand-mark">B</span>
                     <div>
-                        <span class="brand-name">Bulldogs</span>
+                        <span class="brand-name">Bulldog</span>
                         <span class="brand-subtitle">Saturday Soccer League</span>
                     </div>
-                </div>
+                </a>
 
                 <nav class="main-nav" aria-label="Main navigation">
                     <a href="#home">Home</a>
                     <a href="#schedule">Schedule</a>
                     <a href="#teams">Teams</a>
                     <a href="#standings">Standings</a>
+                    <a href="#register">Sign Up</a>
                 </nav>
             </div>
         </header>
-            <div class="hero-content">
-                <h1>Information</h1>
 
-                <p>When: Every Saturday </br>
-                Where: <a href="https://www.google.com/maps/dir/41.9283556,-87.6537062/Fleet+Fields,+1397+W+Wabansia+Ave,+Chicago,+IL+60642/@41.919896,-87.6714424,2468m/data=!3m2!1e3!4b1!4m18!1m7!3m6!1s0x880fd361e910cfe5:0x57fd576ce5a64e20!2sFleet+Fields!8m2!3d41.9135466!4d-87.6624867!16s%2Fg%2F11hzlzbsp4!4m9!1m1!4e1!1m5!1m1!1s0x880fd361e910cfe5:0x57fd576ce5a64e20!2m2!1d-87.6624867!2d41.9135466!3e0?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Fleet Fields</a>
+        <main id="main-content" tabindex="-1">
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <p class="eyebrow">League Info</p>
+                <h1>Information</h1>
+                <p class="hero-text">
+                    <strong>When:</strong> Every Saturday 9:00 to 10:00 AM Starting December 5th<br>
+                    <strong>Where:</strong> <a href="https://www.google.com/maps/dir/41.9283556,-87.6537062/Fleet+Fields,+1397+W+Wabansia+Ave,+Chicago,+IL+60642/@41.919896,-87.6714424,2468m/data=!3m2!1e3!4b1!4m18!1m7!3m6!1s0x880fd361e910cfe5:0x57fd576ce5a64e20!2sFleet+Fields!8m2!3d41.9135466!4d-87.6624867!16s%2Fg%2F11hzlzbsp4!4m9!1m1!4e1!1m5!1m1!1s0x880fd361e910cfe5:0x57fd576ce5a64e20!2m2!1d-87.6624867!2d41.9135466!3e0?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Fleet Fields</a><br>
+                    <strong>Who:</strong> All Intermediate 4th and 5th graders<br>
+                    <strong>How:</strong> We will have a few teams and will be playing games against each other. The league is free of charge and is open to all players regardless of skill level.<br>
+                    <strong>Why:</strong> We believe that Bulldogs should have the opportunity to play soccer, and have an opportunity to have fun playing soccer with school friends.
                 </p>
             </div>
+        </section>
+        <section class="schedule" id="schedule">
+            <div class="container schedule-content">
+                <div class="section-heading">
+                    <p class="eyebrow">Schedule</p>
+                    <h2>Games Schedule</h2>
+                </div>
+
+                <div class="schedule-table-wrap" role="region" aria-label="Game schedule table. Scroll horizontally to view all columns." tabindex="0">
+                    <table class="schedule-table">
+                        <caption class="visually-hidden">Saturday soccer game dates, times, locations, and teams</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Date</th>
+                                <th scope="col">Start Time</th>
+                                <th scope="col">Predicted End Time</th>
+                                <th scope="col">Location</th>
+                                <th scope="col">Teams</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>December 5</td>
+                                <td>9:10</td>
+                                <td>9:35</td>
+                                <td>Field 1</td>
+                                <td>Undecided</td>
+                            </tr>
+                            <tr>
+                                <td>December 5</td>
+                                <td>9:10</td>
+                                <td>9:25</td>
+                                <td>Field 2</td>
+                                <td>Undecided</td>
+                            </tr>
+                            <tr>
+                                <td>December 12</td>
+                                <td>9:10</td>
+                                <td>9:25</td>
+                                <td>Field 1</td>
+                                <td>Undecided</td>
+                            </tr>
+                            <tr>
+                                <td>December 12</td>
+                                <td>9:10</td>
+                                <td>9:25</td>
+                                <td>Field 2</td>
+                                <td>Undecided</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="standings" id="standings">
+            <div class="container standings-content">
+                <div class="section-heading">
+                    <p class="eyebrow">Standings</p>
+                    <h2>Current Standings</h2>
+                    <h3>No Information Available</h3>
+                </div>
+            </div>
+        </section>
+        <section class="teams" id="teams">
+            <div class="container teams-content">
+                <div class="section-heading">
+                    <p class="eyebrow">Teams</p>
+                    <h2>Current Teams</h2>
+                    <h3>No Information Available</h3>
+                </div>
+            </div>
+        </section>
+        <section class="register" id="register">
+            <div class="container register-content">
+                <div class="section-heading">
+                    <p class="eyebrow">Register</p>
+                    <h2>Registration</h2>
+                </div>
+                <p class="form-note">
+                    Complete the form to open an email draft with your registration details. Add the league recipient email address or addresses in the To field, then send the email.
+                </p>
+                <form class="registration-form" id="registration-form">
+                    <div class="form-field">
+                        <label for="player-name">Player name</label>
+                        <input id="player-name" name="Player name" type="text" autocomplete="name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="grade">Grade</label>
+                        <select id="grade" name="Grade" required>
+                            <option value="">Select a grade</option>
+                            <option value="4th grade">4th grade</option>
+                            <option value="5th grade">5th grade</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="guardian-name">Parent/guardian name</label>
+                        <input id="guardian-name" name="Parent/guardian name" type="text" autocomplete="name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="guardian-email">Parent/guardian email</label>
+                        <input id="guardian-email" name="Parent/guardian email" type="email" autocomplete="email" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="guardian-phone">Parent/guardian phone</label>
+                        <input id="guardian-phone" name="Parent/guardian phone" type="tel" autocomplete="tel">
+                    </div>
+                    <div class="form-field form-field-wide">
+                        <label for="registration-notes">Notes</label>
+                        <textarea id="registration-notes" name="Notes" rows="4"></textarea>
+                    </div>
+                    <button class="register-submit" type="submit">Continue to Email</button>
+                    <p>Enter the email: placeholder@example.com</p>
+                </form>
+            </div>
+        </section>
         </main>
+        <footer class="site-footer">
+            <div class="container footer-content">
+                <div class="footer-about">
+                    <a class="footer-brand" href="#home">Bulldogs Saturday Soccer League</a>
+                    <p>Free Saturday soccer for intermediate 4th and 5th graders.</p>
+                </div>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <h2>Explore</h2>
+                    <a href="#home">Home</a>
+                    <a href="#schedule">Schedule</a>
+                    <a href="#teams">Teams</a>
+                    <a href="#standings">Standings</a>
+                    <a href="#register">Sign Up</a>
+                </nav>
+                <div class="footer-details">
+                    <h2>League details</h2>
+                    <p><strong>When:</strong> Saturdays, 9:00-10:00 AM</p>
+                    <p><strong>Where:</strong> Fleet Fields, Chicago</p>
+                </div>
+            </div>
+            <div class="container footer-bottom">
+                <p>Bulldogs Saturday Soccer League</p>
+                <a class="back-to-top" href="#home">Back to top</a>
+            </div>
+        </footer>
     </body>
 </html>
